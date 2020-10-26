@@ -1,0 +1,11 @@
+{ "name" : "My Extention" ,
+  "version" : "1.0.0" , 
+  "description" : "Mes extention Social Media !" , 
+  "manifest_version" : 2,
+  "icons" : {"128" : "img.jpg"},
+  "browser_action" :{
+      "default_icon": "code.png",
+      "default_popup" : "index.html"
+  },
+  "permissions": ["activeTab"]
+}
